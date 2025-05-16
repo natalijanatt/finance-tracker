@@ -30,7 +30,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig # App source code path
           api_location: "/" # Api source code path - optional
           app_location: "/"        # means /github/workspace, which is your Angular root
-          output_location: "dist/finance-tracker"  # relative to app_location
+          output_location: "dist/finance-tracker/browser" # relative to app_location
 
 
           ###### End of Repository/Build Configurations ######
