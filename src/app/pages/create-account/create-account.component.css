@@ -1,0 +1,46 @@
+.create-account-container{
+    display: flex;
+    padding: 6px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 8px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 2;
+}
+.text{
+    color: hsl(185 26% 9%);
+    font-size: 4rem;
+    font: bold;
+    font-weight: 700; 
+}
+.text span{
+    color: aqua;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 450;
+}
+.btn{
+    background-color: hsl(185 26% 9%);
+    color: white;
+    border: none;
+    width: fit-content;
+    font-size: 19px;
+    border-radius: 7px;
+    
+}
+.btn:hover{
+    background-color: aqua;
+    color:  hsl(185 26% 9%);
+    cursor: pointer;
+}
